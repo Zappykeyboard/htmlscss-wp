@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: green;
+    margin: 30px 20%;
+}
+
+/*header nero*/
+
+header {
+    color: white;
+    background-color: black;
+    position: relative;
+    height: 100px;
+}
+
+/*titolo header bianco e centrato*/
+
+#title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*barra di navigazione grigia*/
+
+nav {
+    background-color: grey;
+    text-align: center;
+}
+
+/*link di navigazione*/
+
+#link-list li {
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+/*imposto la sezione principale*/
+
+#body-content {
+    height: auto;
+    background-color: rgb(228, 137, 152);
+}
+
+/*imposto margine colonne*/
+
+.column {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* barra degli rss bianca a sinistra*/
+
+#rss-column {
+    background-color: white;
+    float: left;
+    width: 25%;
+    height: 300px;
+}
+
+/* colonna dell'articolo*/
+
+#article-column {
+    background-color: aqua;
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+/*colonna dei widget*/
+
+#widget-column {
+    /* background-color: burlywood; */
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+/*stile contenuti widget*/
+
+.widget-content {
+    height: 140px;
+    background-color: chocolate;
+    margin: 10px;
+}
+
+/*clearfix #body-content*/
+
+#body-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*stile footer*/
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
