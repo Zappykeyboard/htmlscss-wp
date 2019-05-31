@@ -140,3 +140,17 @@ footer {
 footer hr{
     color: black;
 }
+
+/*riga delle icone*/
+#social-buttons{
+    position: relative;
+}
+
+#social-buttons span{
+    width: 30%;
+}
+
+#social-buttons img{
+    width: 32px;
+    height: 32px;
+}
