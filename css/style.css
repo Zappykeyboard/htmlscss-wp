@@ -75,14 +75,13 @@ nav {
 
 #body-content {
     height: auto;
-    background-color: rgb(228, 137, 152);
 }
 
 /*imposto margine colonne*/
 
 .column {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /* barra degli rss bianca a sinistra*/
@@ -90,25 +89,25 @@ nav {
 #rss-column {
     background-color: white;
     float: left;
-    width: 25%;
+    width: 20%;
     height: 300px;
 }
 
 /* colonna dell'articolo*/
 
 #article-column {
-    background-color: aqua;
+    background-color: white;
     float: left;
     width: 50%;
     height: 400px;
+    margin: 10px 5%;
 }
 
 /*colonna dei widget*/
 
 #widget-column {
-    /* background-color: burlywood; */
     float: right;
-    width: 25%;
+    width: 20%;
     height: auto;
 }
 
@@ -116,8 +115,8 @@ nav {
 
 .widget-content {
     height: 140px;
-    background-color: chocolate;
-    margin: 10px;
+    background-color: white;
+    margin-bottom: 10px;
 }
 
 /*clearfix #body-content*/
