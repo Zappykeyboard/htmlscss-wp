@@ -130,7 +130,13 @@ nav {
 /*stile footer*/
 
 footer {
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: rgb(209, 202, 202);
     text-align: center;
+    min-height: 150px;
+}
+
+/*hr del footer*/
+footer hr{
+    color: black;
 }
