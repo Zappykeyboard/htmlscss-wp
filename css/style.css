@@ -49,15 +49,26 @@ header {
 nav {
     background-color: grey;
     text-align: center;
+    min-height: 4em;
+    height: auto;
+    position: relative;
 }
 
 /*link di navigazione*/
+#link-list{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 #link-list li {
     list-style: none;
     color: white;
     display: inline-block;
-    margin: 5px 20px;
+    margin: 10px 10px;
+    font-size: 15px;
 }
 
 /*imposto la sezione principale*/
