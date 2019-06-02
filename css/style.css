@@ -57,7 +57,7 @@ nav {
 
 .nav-link {
     display: inline-block;
-    width: 13%;
+    width: 11%;
     margin: 1.3%;
     text-align: center;
 }
@@ -65,7 +65,7 @@ nav {
 .nav-link a {
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 /*imposto la sezione principale*/
