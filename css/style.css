@@ -6,7 +6,7 @@
 body {
     background: url("../img/background_wood.jpg") no-repeat;
     background-size: cover;
-    margin: 20px 12%;
+    margin: 20px 10%;
 }
 
 /*header */
@@ -14,8 +14,9 @@ body {
 header {
     color: white;
     position: relative;
-    height: 250px;
+    height: 300px;
     background: rgba(0, 0, 0, 0.50) url("../img/header.jpg") no-repeat;
+    background-size: cover;
     border: 7px solid white;
 }
 
@@ -27,6 +28,7 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /*stile h1 del titolo*/
@@ -35,41 +37,33 @@ header {
     border: 4px solid white;
     font-size: 3em;
     padding: 10px 10px;
-    text-align: center;
 }
 
 /*stile h2 del titolo*/
 
 #title h2 {
-    text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
-/*barra di navigazione grigia*/
+/*barra di navigazione*/
 
 nav {
     background-color: grey;
-    text-align: center;
-    min-height: 4em;
     height: auto;
     position: relative;
 }
 
-/*link di navigazione*/
-#link-list{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.nav-link {
+    display: inline-block;
+    width: 13%;
+    margin: 1.3%;
+    text-align: center;
 }
 
-#link-list li {
-    list-style: none;
+.nav-link a {
     color: white;
-    display: inline-block;
-    margin: 10px 10px;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 /*imposto la sezione principale*/
@@ -86,7 +80,8 @@ nav {
 }
 
 /*imposto padding per elementi interni alle colonne*/
-.column-inside{
+
+.column-inside {
     padding: 5%;
 }
 
@@ -101,29 +96,30 @@ nav {
 }
 
 /* stile bottone e titolo rss*/
-#rss-title, #rss-button{
+
+#rss-title, #rss-button {
     display: inline-block;
 }
 
-#rss-button{
+#rss-button {
     float: left;
     margin-right: 7px;
 }
 
-#rss-title{
+#rss-title {
     font-size: 1.5em;
 }
 
 /*stili articoli rss*/
-#rss-articles article{
+
+#rss-articles article {
     padding: 20px;
 }
 
-#rss-articles a{
+#rss-articles a {
     color: green;
     text-decoration: none;
 }
-
 
 /* colonna dell'articolo*/
 
@@ -136,12 +132,14 @@ nav {
 }
 
 /*titolo dell'articolo*/
-#article-title{
+
+#article-title {
     font-size: 2em;
 }
 
 /*corpo dell'articolo*/
-#article-column article{
+
+#article-column article {
     padding-top: 20px;
     line-height: 1.5;
 }
@@ -163,14 +161,15 @@ nav {
 }
 
 /*Stile titolo widget*/
-#widget-column h3{
+
+#widget-column h3 {
     font-size: 1.2em;
     padding: 10px;
 }
 
 /*stile articolo widget*/
 
-#widget-column article{
+#widget-column article {
     padding-top: 20px;
     line-height: 1.5;
 }
@@ -194,47 +193,52 @@ footer {
 }
 
 /*aggiungo margine a autore*/
-#autore{
+
+#autore {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.25em;
     font-style: italic;
 }
+
 /*hr del footer*/
-.line{
+
+.line {
     color: black;
     padding: 0 2px;
 }
 
 /*riga delle icone*/
-#social-buttons-row div{
+
+#social-buttons-row div {
     display: inline-block;
     width: 30%;
     height: 50px;
     position: relative;
     padding-top: 20px;
-
 }
 
-.facebook, .instagram{
-    float:left;
+.facebook, .instagram {
+    float: left;
 }
 
-.instagram{
+.instagram {
     margin: 0 5%;
 }
 
-.github{
+.github {
     float: right;
 }
 
 /*imposto dimensione delle immagini*/
-.github img, .instagram img, .facebook img{
+
+.github img, .instagram img, .facebook img {
     width: 32px;
     height: 32px;
 }
 
 /*arrotonda bordi di alcuni elementi*/
-.border-round{
+
+.border-round {
     border-radius: 5px;
 }
