@@ -84,13 +84,42 @@ nav {
     margin-bottom: 30px;
 }
 
+/*imposto padding per elementi interni alle colonne*/
+.column-inside{
+    padding: 5%;
+}
+
 /* barra degli rss bianca a sinistra*/
 
 #rss-column {
     background-color: white;
+    position: relative;
     float: left;
     width: 20%;
-    height: 300px;
+    height: auto;
+}
+
+/* stile bottone e titolo rss*/
+#rss-title, #rss-button{
+    display: inline-block;
+}
+
+#rss-button{
+    float: left;
+    margin-right: 7px;
+}
+
+#rss-title{
+    font-size: 1.5em;
+}
+
+#rss-articles article{
+    padding: 20px;
+}
+
+#rss-articles a{
+    color: green;
+    text-decoration: none;
 }
 
 /* colonna dell'articolo*/
