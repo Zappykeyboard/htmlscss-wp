@@ -113,6 +113,7 @@ nav {
     font-size: 1.5em;
 }
 
+/*stili articoli rss*/
 #rss-articles article{
     padding: 20px;
 }
@@ -122,14 +123,25 @@ nav {
     text-decoration: none;
 }
 
+
 /* colonna dell'articolo*/
 
 #article-column {
     background-color: white;
     float: left;
     width: 50%;
-    height: 400px;
+    height: auto;
     margin: 10px 5%;
+}
+
+/*titolo dell'articolo*/
+#article-title{
+    font-size: 2em;
+}
+
+#article-column article{
+    padding-top: 20px;
+    line-height: 1.5;
 }
 
 /*colonna dei widget*/
