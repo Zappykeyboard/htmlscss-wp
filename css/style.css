@@ -177,3 +177,8 @@ footer {
     width: 32px;
     height: 32px;
 }
+
+/*arrotonda bordi di alcuni elementi*/
+.border-round{
+    border-radius: 5px;
+}
