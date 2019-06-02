@@ -132,13 +132,22 @@ nav {
 footer {
     background-color: white;
     color: rgb(209, 202, 202);
-    text-align: center;
     min-height: 150px;
+    position: relative;
+    text-align: center;
 }
 
+/*aggiungo margine a autore*/
+#autore{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.25em;
+    font-style: italic;
+}
 /*hr del footer*/
-footer hr{
+.line{
     color: black;
+    padding: 0 2px;
 }
 
 /*riga delle icone*/
@@ -147,6 +156,7 @@ footer hr{
     width: 30%;
     height: 50px;
     position: relative;
+    padding-top: 20px;
 
 }
 
