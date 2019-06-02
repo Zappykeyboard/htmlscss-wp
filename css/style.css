@@ -142,15 +142,33 @@ footer hr{
 }
 
 /*riga delle icone*/
-#social-buttons{
+#social-buttons-row div{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
     position: relative;
 }
 
-#social-buttons span{
-    width: 30%;
-}
 
-#social-buttons img{
-    width: 32px;
-    height: 32px;
+
+
+.green{
+    background: rgba(255, 255, 255, 0.85) url("../img/github.png")  center  no-repeat;
+    background-size: 32px;
+    background-blend-mode: darken;
+    float: right;
+}
+.red{
+    background: rgba(255, 255, 255, 0.85) url("../img/instagram.png") center  no-repeat;
+    background-size: 32px;
+    background-blend-mode: darken;
+    float:left;
+    margin: 0 5%;
+}
+.facebook{
+
+    background: rgba(255, 255, 255, 0.85) url("../img/facebook.png") center  no-repeat;
+    background-size: 32px;
+    background-blend-mode: darken;
+    float:left;
 }
