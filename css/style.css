@@ -149,26 +149,25 @@ footer hr{
     position: relative;
 }
 
-
-
-
-.green{
-    background: rgba(255, 255, 255, 0.85) url("../img/github.png")  center  no-repeat;
-    background-size: 32px;
-    background-blend-mode: darken;
-    float: right;
-}
-.red{
-    background: rgba(255, 255, 255, 0.85) url("../img/instagram.png") center  no-repeat;
-    background-size: 32px;
-    background-blend-mode: darken;
-    float:left;
-    margin: 0 5%;
-}
 .facebook{
 
     background: rgba(255, 255, 255, 0.85) url("../img/facebook.png") center  no-repeat;
     background-size: 32px;
     background-blend-mode: darken;
     float:left;
+}
+
+.instagram{
+    background: rgba(255, 255, 255, 0.85) url("../img/instagram.png") center  no-repeat;
+    background-size: 32px;
+    background-blend-mode: darken;
+    float:left;
+    margin: 0 5%;
+}
+
+.github{
+    background: rgba(255, 255, 255, 0.85) url("../img/github.png")  center  no-repeat;
+    background-size: 32px;
+    background-blend-mode: darken;
+    float: right;
 }
