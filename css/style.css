@@ -5,6 +5,7 @@
 
 body {
     background: url("../img/background_wood.jpg") no-repeat;
+    background-size: cover;
     margin: 20px 12%;
 }
 
@@ -156,9 +157,22 @@ nav {
 /*stile contenuti widget*/
 
 .widget-content {
-    height: 140px;
+    height: auto;
     background-color: white;
     margin-bottom: 10px;
+}
+
+/*Stile titolo widget*/
+#widget-column h3{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+/*stile articolo widget*/
+
+#widget-column article{
+    padding-top: 20px;
+    line-height: 1.5;
 }
 
 /*clearfix #body-content*/
