@@ -235,7 +235,7 @@ footer {
 
 /*imposto dimensione delle immagini*/
 
-.github img, .instagram img, .facebook img {
+#social-buttons-row img {
     width: 32px;
     height: 32px;
 }
@@ -258,7 +258,7 @@ header, nav, footer{
 }
 
 /*stile titoli colonna centrale e colonna widget*/
-h3,h5,
+h3, h5,
 #article-column article,
 #widget-column article{
     color: #504741;
