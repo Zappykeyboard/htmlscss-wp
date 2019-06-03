@@ -5,7 +5,9 @@
 
 body {
     background: url("../img/background_wood.jpg") no-repeat;
-    background-size: cover;
+     background-size: cover;
+}
+#body-container{
     margin: 20px 10%;
 }
 
