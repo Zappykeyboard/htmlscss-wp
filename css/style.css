@@ -17,12 +17,12 @@ header {
     background: rgba(0, 0, 0, 0.50) url("../img/header.jpg") no-repeat;
     background-size: cover;
     border: 7px solid white;
-    text-align: center;
-}
+/*     text-align: center;
+ */}
 
 /*titolo header bianco e centrato*/
 
- #title-container {
+#title-container {
     color: white;
     position: absolute;
     left: 50%;
@@ -31,8 +31,9 @@ header {
     text-align: center;
     position: relative;
     margin-top: 40px;
-} 
-/*stile h1 del titolo*/
+}
+
+/*stile div del titolo h1*/
 
 #title {
     border: 5px solid white;
@@ -40,11 +41,10 @@ header {
     margin: 0 32%;
 }
 
-/*stile h2 del titolo*/
+/*stile div del titolo h2*/
 
 #subtitle {
     margin-top: 70px;
-
 }
 
 /*barra di navigazione*/
@@ -237,6 +237,7 @@ footer {
 #social-buttons-row img {
     width: 32px;
     height: 32px;
+    opacity: 0.5;
 }
 
 /*arrotonda bordi di alcuni elementi*/
@@ -245,24 +246,20 @@ footer {
     border-radius: 5px;
 }
 
-
 /*imposto font header e navbar*/
-header, nav, footer{
+
+header, nav, footer {
     font-family: 'Montserrat', sans-serif;
 }
 
 /*font titoli corpo*/
-.column-inside{
+
+.column-inside {
     font-family: 'Roboto', sans-serif;
 }
 
 /*stile titoli colonna centrale e colonna widget*/
-h3, h5,
-#article-column article,
-#widget-column article{
+
+h3, h5, #article-column article, #widget-column article {
     color: #504741;
-} 
-
-
-
-
+}
