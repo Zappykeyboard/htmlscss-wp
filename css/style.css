@@ -68,6 +68,10 @@ nav {
     font-size: 12px;
 }
 
+.nav-link a:hover{
+    text-decoration: underline; 
+}
+
 /*imposto la sezione principale*/
 
 #body-content {
@@ -121,6 +125,10 @@ nav {
 #rss-articles a {
     color: green;
     text-decoration: none;
+}
+
+#rss-articles a:hover{
+    text-decoration: underline;
 }
 
 /* colonna dell'articolo*/
@@ -239,6 +247,10 @@ footer {
     width: 32px;
     height: 32px;
     opacity: 0.5;
+}
+
+#social-buttons-row img:hover{
+    opacity: 1;
 }
 
 /*arrotonda bordi di alcuni elementi*/
