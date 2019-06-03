@@ -118,8 +118,9 @@ nav {
 
 /*stili articoli rss*/
 
-#rss-articles article {
+#rss-articles li {
     padding: 20px;
+    list-style: none;
 }
 
 #rss-articles a {
